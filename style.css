@@ -1,5 +1,5 @@
 body {
-    background-color: #ffc3da;
+    background-color: #DDC4D7;
   }
   
   .envelope-wrapper {
@@ -10,13 +10,13 @@ body {
     position: relative;
     height: 180px;
     width: 280px;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     margin-left: auto;
     margin-right: auto;
     top: 50%;
-    background-color: #FF6863;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: #D995A7;
+    box-shadow: 0 20px 60px rgba(0, 0.3, 0.3, 0.3);
   }
   
   #envelope:hover {
@@ -31,7 +31,7 @@ body {
   }
   
   .flap {
-    border-top: 98px solid #FF6863;
+    border-top: 98px solid #E38BAA;
     border-left: 140px solid transparent;
     border-right: 140px solid transparent;
     border-bottom: 82px solid transparent;
@@ -39,19 +39,19 @@ body {
   }
   
   .pocket {
-    border-left: 140px solid #FF8BA0;
-    border-right: 140px solid #FF8BA0;
-    border-bottom: 90px solid #FFA8B5;
+    border-left: 140px solid #EDA5BE;
+    border-right: 140px solid #EDA5BE;
+    border-bottom: 90px solid #ECB5C8;
     border-top: 90px solid transparent;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   
   .letter {
     position: relative;
-    background-color: white;
+    background-color: #FBE8EF;
     width: 90%;
-    height: 95%;
+    height: 93%;
     top: 5%;
     border-radius: 10px;
     box-shadow: 0 2px 26px rgba(0, 0, 0, .12);
@@ -73,19 +73,21 @@ body {
     left: 10%;
     width: 80%;
     height: 14%;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    font-size: 17px;
+    font-family: 'Times New Roman', sans-serif;
+    color: #473C40;
   }
   
   .text1 {
     top: 15%;
+    text-align: center;
   }
   .text2 {
-    top: 30%;
+    top: 35%;
+    text-align: center;
   }
   .text3 {
-    top: 50%;
+    top: 46%;
     text-align: center;
   }
   
@@ -115,7 +117,7 @@ body {
   
   .hearts {
     position: absolute;
-    top: 90px;
+    top: 80px;
     left: 0;
     right: 0;
     z-index: 2;
@@ -130,7 +132,7 @@ body {
   .heart:before, .heart:after {
     position: absolute;
     content: "";
-    background: #d00000;
+    background: #E85D69;
     width: 50px;
     height: 80px;
     left: 50px;
@@ -161,7 +163,7 @@ body {
   }
   .heart2 {
     left: 55%;
-    transform: scale(1);
+    transform: scale(0.5);
     opacity: 1;
     animation: slideUp 5s linear 1, sideSway 4s  ease-in-out 2 alternate;
     animation-fill-mode: forwards;
@@ -169,7 +171,7 @@ body {
   }
   .heart3 {
     left: 10%;
-    transform: scale(0.8);
+    transform: scale(0.7);
     opacity: 1;
     animation: slideUp 7s linear 1, sideSway 2s  ease-in-out 6 alternate;
     animation-fill-mode: forwards;
@@ -252,15 +254,16 @@ body {
   }
   
   .reset button {
-    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 580;
     font-style: normal;
     transition: all 0.1s linear;
     background-color: transparent;
-    border: solid 3px #FFABB6;
-    border-radius: 10px;
-    color: #b14c84;
+    border: solid 3px #F6C5DB;
+    border-radius: 15px;
+    color: #6E6268;
     display: inline-block;
-    font-size: 14px;
+    font-size: 20px;
     text-transform: uppercase;
     margin: 20px;
     margin-top: 100px;
@@ -272,15 +275,15 @@ body {
   }
   
   .reset button:hover {
-    background-color: #FF6863;
+    background-color: #DFB2C8;
     cursor: pointer;
-    color: white;
+    color: #FBDEEC;
   }
   
   .valentine {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color:rgb(20, 20, 20);
-    font-size: 70px;
-    margin: 150px;
+    font-family: 'Times New Roman', sans-serif;
+    color: #6E6268;
+    font-size: 30px;
+    margin: 50px;
   }
